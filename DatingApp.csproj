@@ -17,6 +17,7 @@
     <PackageReference Include="NuGet.Common" Version="6.5.0" />
     <PackageReference Include="NuGet.Frameworks" Version="6.5.0" />
     <PackageReference Include="SQLite" Version="3.13.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.28.1" />
   </ItemGroup>
 
 </Project>
