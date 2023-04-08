@@ -7,9 +7,11 @@ using System.Text;
 using DatingApp.DTO;
 using DatingApp.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DatingApp.Controllers
 {
+    //[Authorize] - removed for now
     public class AccountController : BaseAPIController
     {
         private readonly DataContext _context;
